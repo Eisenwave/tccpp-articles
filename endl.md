@@ -22,6 +22,9 @@ but also flushes it.
 Use `<< '\n'` instead, if you don't need to flush.
 
 ## Also See
-<:stackoverflow:874353689031233606> ["std::endl" vs "\n"](https://stackoverflow.com/q/213907/5740428)
-- cppreference: **[std::endl](https://en.cppreference.com/w/cpp/io/manip/endl)**
-- cppreference: **[std::flush](https://en.cppreference.com/w/cpp/io/manip/flush)**
+<:stackoverflow:874353689031233606>
+["std::endl" vs "\n"](https://stackoverflow.com/q/213907/5740428)  
+<:cppreference:875716540929015908>
+**[std::endl](https://en.cppreference.com/w/cpp/io/manip/endl)**  
+<:cppreference:875716540929015908>
+**[std::flush](https://en.cppreference.com/w/cpp/io/manip/flush)**
