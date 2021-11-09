@@ -80,3 +80,5 @@ int main() {
 **[dynamic_cast](https://en.cppreference.com/w/cpp/language/dynamic_cast)**  
 
 **[Microsoft's article on casts](https://docs.microsoft.com/en-us/cpp/cpp/type-conversions-and-type-safety-modern-cpp)**
+
+?creditFooter 379250891838193667
