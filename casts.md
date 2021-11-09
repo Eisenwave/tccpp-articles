@@ -3,7 +3,6 @@
 ##C-style cast  
 - Used to perform implicit or explicit type conversions between types  
 
-###Example  
 ```c++
 (unsigned int) int_var;
 ```
@@ -11,7 +10,6 @@
 ##static_cast  
 - Used to perform implicit or explicit type conversions between types  
 
-###Example:  
 ```c++
 static_cast<unsigned int>(int_var);
 ```
@@ -19,7 +17,6 @@ static_cast<unsigned int>(int_var);
 ##reinterpret_cast  
 - Converts type by reinterpreting the bits of the type
 
-###Example  
 ```c++
 reinterpret_cast<int*>(nullptr);
 ```
@@ -27,7 +24,6 @@ reinterpret_cast<int*>(nullptr);
 ##const_cast  
 - Used to convert normal type to const type
 
-###Example  
 ```c++
 const_cast<const int>(int_var);
 ```
@@ -35,12 +31,11 @@ const_cast<const int>(int_var);
 ##dynamic_cast  
 - Used to either downcast or upcast a class with atleast one virtual method  
 
-###Example  
 ```c++
 dynamic_cast<derived*>(base_ptr);
 ```
 
-###Resources  
+### Also See  
 **[C-style cast](https://en.cppreference.com/w/cpp/language/explicit_cast)**  
 **[static_cast](https://en.cppreference.com/w/cpp/language/static_cast)**  
 **[reinterpret_cast](https://en.cppreference.com/w/cpp/language/reinterpret_cast)**  
