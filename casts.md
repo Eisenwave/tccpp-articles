@@ -1,75 +1,43 @@
 # What are the different casts in c++
 
 ##C-style cast  
-?inline
 - Used to perform implicit or explicit type conversions between types  
-- Prefer using specific cast instead of this one if possible  
-- Evaluated at compile-time  
 
 ###Example  
 ```c++
-// seatCount is initially int, but we need unsigned int so we convert it
-int seatCount = 100;
-unsigned int receivedPackedsShort = (unsigned int) seatCount;
+(unsigned int) int_var;
 ```
 
 ##static_cast  
-?inline
 - Used to perform implicit or explicit type conversions between types  
-- Evaluated at compile-time  
 
 ###Example:  
 ```c++
-// seatCount is initially int, but we need unsigned int, so we convert it
-int seatCount = 100;
-unsigned int seatCountUnsigned = static_cast<unsigned int>(seatCount);
+static_cast<unsigned int>(int_var);
 ```
 
 ##reinterpret_cast  
-?inline
-- Used to convert any pointer to any other datatype  
-- Evaluated at compile-time  
+- Converts type by reinterpreting the bits of the type
 
 ###Example  
 ```c++
-// Example from converting Vulkan-Hpp object to Vulkan.h (C-style) object
-vk::Device device;
-VkDevice device_c = reinterpret_cast<VkDevice>(device);
+reinterpret_cast<int*>(nullptr);
 ```
 
 ##const_cast  
-?inline
 - Used to convert normal type to const type
-- Evaluated at compile-time
 
 ###Example  
 ```c++
-// Function to convert int to const int
-const int make_const(int a) {
-	return const_cast<const int>(a);
-}
+const_cast<const int>(int_var);
 ```
 
 ##dynamic_cast  
-?inline
 - Used to either downcast or upcast a class with atleast one virtual method  
-- Evaluated at run-time  
 
 ###Example  
 ```c++
-class SuperClass {
-public:
-	virtual void sayHello();
-};
-class Derived : public SuperClass {
-public:
-	virtual void sayHello() override;
-};
-
-int main() {
-	SuperClass super {};
-	Derived* superToDerived = dynamic_cast<Derived*>(&super);
-}
+dynamic_cast<derived*>(base_ptr);
 ```
 
 ###Resources  
