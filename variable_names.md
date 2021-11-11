@@ -1,34 +1,35 @@
 # Name Variables Effectively
-
-Sometimes we don't really know how or what we should name a variable, and other times we are just lazy causing while naming a variable causing our code to be unmaintainable and unclear.
-
 Good variable names:
 - inform you of their purpose
 - aren't too short or long
 - aren't generic
 - don't use confusing acronyms \
-Short variable names are fine when part of short code blocks or as for loop counters.
-## Example
+Short variable names are fine as for loop counters.
+## Bad Example
+?inline
 ```c
-char* data = getData();
-// bad; what kind of data is this?
+int a;
+int x = scanf("%d", &a);
 
-for (int i; i < 10; ++i) ...
-// fine, but could possibly be more informative...
+if(x != 0)
+    return -1;
+    
+printf("%d years old", x);
+```
+## Good Example
+?inline
+```c
+int userAge;
+int errorCode = scanf("%d", &userAge);
 
-int averageHairLengthRetrievedFromDatabase = 45;
-// too long! Maybe put the retrieved data in a struct?
+if(errorCode != 0)
+    return -1;
 
-void* tca = grp;
-// bad; what do these acronyms mean?
-
-int studentGrades[5];
-// perfect
+printf("%d years old", userAge);
 ```
 
 ## Naming Conventions
-
-Try naming your variables/functions in a consistent way. Here are some common naming conventions:
+Name your variables/functions in a consistent way. Here are some common naming conventions:
 ```c
 int camelCase = ...;
 int PascalCase = ...;
