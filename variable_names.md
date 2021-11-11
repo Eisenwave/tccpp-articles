@@ -1,4 +1,4 @@
-# Name Variables Effectively
+# Effective Variable Names
 Good variable names:
 - inform you of their purpose
 - aren't too short or long
