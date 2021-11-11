@@ -4,6 +4,7 @@ Good variable names:
 - aren't too short or long
 - aren't generic
 - don't use confusing acronyms \
+
 Short variable names are fine as for loop counters.
 ## Bad Example
 ?inline
@@ -35,4 +36,4 @@ int camelCase = ...;
 int PascalCase = ...;
 int snake_case = ...;
 ```
-It doesn't matter which one you use, just make sure you keep it consistent to keep your code clean.
+It doesn't matter which one you use, just make sure you keep your style consistent to keep your code clean.
