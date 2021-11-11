@@ -1,47 +1,37 @@
-# What are the different casts in c++
+# What are the different casts in C++
 
-##C-style cast  
-- Used to perform implicit or explicit type conversions between types  
-
-```c++
-(unsigned int) int_var;
-```
-
-##static_cast  
-- Used to perform implicit or explicit type conversions between types  
-
-```c++
-static_cast<unsigned int>(int_var);
-```
-
-##reinterpret_cast  
-- Converts type by reinterpreting the bits of the type
-
-```c++
-reinterpret_cast<int*>(nullptr);
-```
-
-##const_cast  
-- Used to convert normal type to const type
-
-```c++
-const_cast<const int>(int_var);
-```
-
-##dynamic_cast  
-- Used to either downcast or upcast a class with atleast one virtual method  
-
-```c++
-dynamic_cast<derived*>(base_ptr);
-```
-
-### Also See  
-**[C-style cast](https://en.cppreference.com/w/cpp/language/explicit_cast)**  
 **[static_cast](https://en.cppreference.com/w/cpp/language/static_cast)**  
+Converts using implicit and user-defined conversions.
+```cpp
+static_cast<int>(123.45f); // 123
+```
 **[reinterpret_cast](https://en.cppreference.com/w/cpp/language/reinterpret_cast)**  
+Converts by reinterpreting the bits of an object.
+```cpp
+reinterpret_cast<std::uintptr_t>(&x);
+```
 **[const_cast](https://en.cppreference.com/w/cpp/language/const_cast)**  
+Adds or removes `const`/`volatile` qualifications.
+```c++
+const_cast<const int&>(integer);
+```
 **[dynamic_cast](https://en.cppreference.com/w/cpp/language/dynamic_cast)**  
+Safely up/down/sideways-casts virtual classes in an inheritance hierarchy.
+```c++
+dynamic_cast<derived*>(base_ptr); // downcast
+```
+**[C-style cast](https://en.cppreference.com/w/cpp/language/explicit_cast#Explanation)**  
+Uses a combination of the four above.
+```c++
+(int) 3.14159 // 3
+```
+⚠️ can be very unpredictable, especially in templates, where types are not known ⇒ **avoid in C++**
 
-**[Microsoft's article on casts](https://docs.microsoft.com/en-us/cpp/cpp/type-conversions-and-type-safety-modern-cpp)**
+### Also See
+<:stackoverflow:874353689031233606>
+[When should static_cast, ... be used?](https://stackoverflow.com/a/332086/5740428)  
+<:stackoverflow:874353689031233606>
+[Is it possible to completely avoid C-style casts in C++?](https://stackoverflow.com/a/4219366/5740428)  
+• [Microsoft: Type conversions and type safety](https://docs.microsoft.com/en-us/cpp/cpp/type-conversions-and-type-safety-modern-cpp)
 
 ?creditFooter 379250891838193667
