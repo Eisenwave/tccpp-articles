@@ -27,7 +27,7 @@ Each source file becomes a *translation unit* during
 
 Sometimes `.ipp` or `.tpp` for C++ are used for internal headers with function definitions.
 
-## Also See
+## See Also
 ?inline
 📄 [How do header and source files in C work?](https://stackoverflow.com/q/5904530/5740428)  
 📄 [What are 'Include Guards' and #pragma once?](https://64.github.io/cpp-faq/include-guards-pragma-once/)

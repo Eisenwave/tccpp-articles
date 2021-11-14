@@ -21,7 +21,7 @@ but also flushes it.
 
 Use `<< '\n'` instead, if you don't need to flush.
 
-## Also See
+## See Also
 <:stackoverflow:874353689031233606>
 ["std::endl" vs "\n"](https://stackoverflow.com/q/213907/5740428)  
 <:cppreference:875716540929015908>

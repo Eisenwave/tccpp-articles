@@ -16,7 +16,7 @@ accident, even in C++ with some compilers.
 ⚠ optional feature since C11  
 ⚠ supported as non-standard extension by GCC, clang
 
-## Also See
+## See Also
 ?inline
 <:stackoverflow:874353689031233606>
 [What technical disadvantages do C99-style VLAs have?](https://stackoverflow.com/q/12407754/5740428)  

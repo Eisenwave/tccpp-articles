@@ -18,7 +18,7 @@ namespace chr = std::chrono;
 chr::duration x;
 ```
 
-## Also See
+## See Also
 
 <:tccpp:865354975629279232>
 [Why is "using namespace std;" considered bad practice?](https://64.github.io/cpp-faq/using-namespace-std/)  

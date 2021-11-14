@@ -36,7 +36,7 @@ Here are some resources to accompany you:
 ?inline
 - [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
 
-## Also See
+## See Also
 - [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 - [cdecl+](https://eisenwave.github.io/cdecl-plus/) - converts C/C++ declarations to prose
 - Our <#574580408407293954> channel. It contains many useful utilities.

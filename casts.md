@@ -27,7 +27,7 @@ Uses a combination of the four above.
 ```
 ⚠️ can be very unpredictable, especially in templates, where types are not known ⇒ **avoid in C++**
 
-### Also See
+### See Also
 <:stackoverflow:874353689031233606>
 [When should static_cast, ... be used?](https://stackoverflow.com/a/332086/5740428)  
 <:stackoverflow:874353689031233606>
