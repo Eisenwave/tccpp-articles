@@ -21,6 +21,7 @@ Here are some resources to accompany you:
 ## Books
 ?inline
 - [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
+- [Modern C](https://hal.inria.fr/hal-02383654/document)
 
 ## Also See
 - [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
