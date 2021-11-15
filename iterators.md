@@ -37,7 +37,7 @@ they can always be used as iterators, e.g.:
 is often implemented like this
 - you can use pointers in algorithms like **[std::sort](https://en.cppreference.com/w/cpp/algorithm/sort)**
 
-## Also See
+## See Also
 <:cppreference:875716540929015908>
 [Iterator Categories](https://en.cppreference.com/w/cpp/iterator)  
 <:cppreference:875716540929015908>

@@ -20,7 +20,7 @@ bool operator==(point a, point b) {
 
 Note: `!=` is often implemented as a wrapper for `==`
 
-## Also See
+## See Also
 
 - [Comparison Operators](https://en.cppreference.com/w/cpp/language/operator_comparison)
 

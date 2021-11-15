@@ -1,6 +1,8 @@
 ?userAuthor
 
-## Don't Ask to Ask, Just Post Your Question
+## Just Post Your Question
+
+Don't ask to ask a question, don't ask if anyone is familiar with XYZ. Just ask your question.
 
 Someone is bound to know the answer and will be happy to help.
 

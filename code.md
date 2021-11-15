@@ -20,5 +20,5 @@ int main() {
 }
 ```
 
-## Also See
+## See Also
 [Learn more about Discord formatting](https://support.discord.com/hc/en-us/articles/210298617)

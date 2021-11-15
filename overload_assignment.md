@@ -20,7 +20,7 @@ struct point {
 
 Note: the copy assignment operator can accept `other` by value too.
 
-## Also See
+## See Also
 
 - [Copy Assignment Operator](https://en.cppreference.com/w/cpp/language/copy_assignment)
 - [Move Assignment Operator](https://en.cppreference.com/w/cpp/language/move_assignment)

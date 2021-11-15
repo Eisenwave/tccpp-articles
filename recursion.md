@@ -27,7 +27,7 @@ int f(int n) {
 `if (n == 0)` here is known as a [base case](https://en.wikipedia.org/wiki/Recursion_(computer_science)#Base_case),
 at least one of which is necessary to prevent infinite recursion.
 
-## Also See
+## See Also
 <:stackoverflow:874353689031233606>
 [Is recursion ever faster than looping?](https://stackoverflow.com/q/2651112/5740428)  
 •

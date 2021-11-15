@@ -39,7 +39,7 @@ popular default choice
 - **[std::uniform_real_distribution](https://en.cppreference.com/w/cpp/numeric/random/uniform_real_distribution)**
 - **[std::normal_distribution](https://en.cppreference.com/w/cpp/numeric/random/normal_distribution)**
 
-## Also See
+## See Also
 <:cppreference:875716540929015908>
 [Pseudo-random number generation](https://en.cppreference.com/w/cpp/numeric/random)  
 <:stackoverflow:874353689031233606>

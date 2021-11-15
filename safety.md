@@ -40,7 +40,7 @@ let you progress step by step, see the call stack, stop upon crashing, etc.
 - **[Valgrind](https://valgrind.org/docs/manual/quick-start.html)** is a Linux program which tracks down memory issues,
 but attaches externally to an already compiled program
 
-## Also See
+## See Also
 
 - `!howto gdb`
 - [TCCPPCon#1: Debugging with GDB](https://www.youtube.com/watch?v=bSEW0BvMiGc)
