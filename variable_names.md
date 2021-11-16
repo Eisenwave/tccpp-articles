@@ -5,7 +5,7 @@ Good variable names:
 - aren't generic
 - don't use confusing acronyms
 
-Short variable names are fine as for loop counters.
+Short variable names are fine as for loop indices.
 ## Bad Example
 ?inline
 ```c
