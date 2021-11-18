@@ -12,6 +12,7 @@ struct point {
     point& operator=(const point& other) {
         this->x = other.x;
         this->y = other.y;
+        return *this;
     }
     // move assignment, explicitly defaulted
     point& operator=(point&&) = default;
