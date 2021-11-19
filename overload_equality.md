@@ -22,6 +22,5 @@ Note: `!=` is often implemented as a wrapper for `==`
 
 ## See Also
 
-- [Comparison Operators](https://en.cppreference.com/w/cpp/language/operator_comparison)
-
-?creditFooter 162964325823283200
+<:cppreference:875716540929015908>
+[Comparison Operators](https://en.cppreference.com/w/cpp/language/operator_comparison)

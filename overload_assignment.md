@@ -23,7 +23,9 @@ Note: the copy assignment operator can accept `other` by value too.
 
 ## See Also
 
-- [Copy Assignment Operator](https://en.cppreference.com/w/cpp/language/copy_assignment)
-- [Move Assignment Operator](https://en.cppreference.com/w/cpp/language/move_assignment)
+<:cppreference:875716540929015908>
+[Copy Assignment Operator](https://en.cppreference.com/w/cpp/language/copy_assignment)  
+<:cppreference:875716540929015908>
+[Move Assignment Operator](https://en.cppreference.com/w/cpp/language/move_assignment)
 
 ?creditFooter 162964325823283200

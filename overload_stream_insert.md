@@ -14,5 +14,3 @@ std::ostream& operator<<(std::ostream& out,
 ```
 
 Here, `p.x` and `p.y` will be inserted into the stream, separated by a space.
-
-?creditFooter 162964325823283200

@@ -14,5 +14,3 @@ std::istream& operator>>(std::istream& in,
 ```
 
 Here, `p.x` and `p.y` will be extracted from the input stream.
-
-?creditFooter 162964325823283200
