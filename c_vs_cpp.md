@@ -16,18 +16,19 @@ There are good reasons for using both languages:
 ✅ lots of helpful abstractions (classes, templates, ...)  
 ✅ feature-rich language (function overloads, `constexpr`, ...)  
 ✅ extensive standard library
+✅ stricter syntax
 ✅ RAII prevents resource leaks
-✅ stricter syntax prevents subtle bugs
 
 ## Which Is Faster?
 Neither language is inherently faster than the other.
 In modern compilers, the exact same optimizer is used for both languages.
-Certain high-level C++ features can make it easy to inadvertently write inefficient code (e.g.
-innocent looking code performing large copies or complicated RAII setups).
 
-One notable difference between the two languages is their standard libraries' string representation:
-C strings, while simple, are highly inefficient.
+C++ mostly benefits from its robust standard library, reducing naïve DIY algorithms and
+boilerplate significantly. It also uses an *exponentially* more efficient string representation
+than C.
 
+However, C++ can also hide slow tasks (e.g. allocations, large copies, exceptions, and RTTI
+lookups) behind seemingly innocent code, all of which would be obvious in C.
 ## Conclusion
 Both languages can be equally fast, choose the right language for your job, and the language you
 enjoy working in.
