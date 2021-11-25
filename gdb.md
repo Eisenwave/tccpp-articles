@@ -1,5 +1,5 @@
 # Debugging with GDB
-Compile your program with `-g` flag and run your program using gdb: `gdb yourprogname`.
+Compile your program with `-g` flag and run your program using gdb: `gdb program_name`.
 From there, you can debug using GDB commands. Use `help` to list commands and their options.
 
 ## Break
@@ -13,6 +13,9 @@ Set a breakpoint to pause execution at a certain line or a function:
 Run your program inside gdb after setting breakpoints:
 - `run`
 - `r`
+
+With arguments to program
+- `r arg1 arg2`
 
 ## Print
 ?inline
