@@ -21,7 +21,7 @@ Less language-specific editors, which are more lightweight.
 Extra tools for building, running, etc. can be installed via plugins.  
 - **[Visual Studio Code](https://code.visualstudio.com/Download)** (free, any OS)
 - **[Sublime Text](https://sublimetext.com)** (free, any OS)
-- **[Vim](https://www.vim.org)**, **[Emacs](https://www.gnu.org/software/emacs/)**: (free, terminal)
+- **[Vim](https://www.vim.org)**, **[Emacs](https://www.gnu.org/software/emacs/)**, **[Micro](https://micro-editor.github.io)**: (free, terminal)
 
 All the above work for many languages, not just C/C++.
 
