@@ -21,4 +21,4 @@ std::cout << *ptr1 << "\n";
 ## See Also:
 - [Introduction to pointers](https://www.learncpp.com/cpp-tutorial/introduction-to-pointers/)
 - [Pointer declaration](https://en.cppreference.com/w/cpp/language/pointer)
-- `!howto pointer_arithmetic`
+- `!howto pointer`
