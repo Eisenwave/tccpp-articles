@@ -34,7 +34,7 @@ our own `swap(T&, T&)` function may be called instead of
 
 ✅ simple implementation of assignments (and move constructor)  
 ✅ well-defined self-assignment  
-✅ **[noexept](https://en.cppreference.com/w/cpp/language/noexcept)** copy/move assignment
+✅ **[noexcept](https://en.cppreference.com/w/cpp/language/noexcept)** copy/move assignment
 if [std::is_nothrow_swappable<T>](https://en.cppreference.com/w/cpp/types/is_swappable)  
 ❌ copying always takes place, even for self-assignment
 
