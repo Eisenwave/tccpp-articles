@@ -2,7 +2,7 @@
 
 In C++, `enum` introduces an
 [unscoped enumeration](https://en.cppreference.com/w/cpp/language/enum#Unscoped_enumerations),
-and `enum class` or `enum struct` introduc a
+and `enum class` or `enum struct` introduce a
 [scoped enumeration](https://en.cppreference.com/w/cpp/language/enum#Scoped_enumerations).
 ```cpp
 enum class Fruit : char {
@@ -16,13 +16,13 @@ Fruit apple = Fruit::APPLE;
 ## Scoped Enumeration (C++-only)
 ?inline
 - underlying type is `int`
-- requires `enum-name::` to access
+- requires *enum-name::* to access
 - only `=`, `==` and `!=` defined (operator overloading possible)
 
 ## Unscoped Enumeration
 ?inline
 - underlying type is impl.-defined
-- access without enum-name
+- access without *enum-name*
 - behaves like list of constants in surrounding scope
 - inherits ops. from underlying type
 
