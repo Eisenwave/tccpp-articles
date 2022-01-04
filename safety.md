@@ -42,7 +42,7 @@ but attaches externally to an already compiled program
 
 ## See Also
 
-- [Safe C Standard - SEI CERT](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
 - `!howto gdb`
 - [TCCPPCon#1: Debugging with GDB](https://www.youtube.com/watch?v=bSEW0BvMiGc)
+- [Safe C Standard - SEI CERT](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
 - [How do I enable compiler warnings?](https://64.github.io/cpp-faq/enable-warnings/)
