@@ -32,7 +32,7 @@ int signum(int a) {
 ## Discussion
 There are many more examples where these branchless operations are useful.
 They can sometimes be more efficient than using an if-statement, but often,
-modern compilers transform code into these branchless versions automatically, and there is no difference.
+modern compilers transform code into these branchless versions automatically, so there is no difference.
 
 ⚠️ **Keep readability in mind; others may find branchless code to be unintuitive and unreadable.**
 
