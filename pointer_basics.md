@@ -1,6 +1,6 @@
 # Pointer Basics
 
-A pointer is a type that stores addresses of objects.
+A pointer is a type that stores the address of an object.
 For example, `int*` is a pointer to an int, and will store the address of an `int`.
 - the address-of operator `&` creates a pointer to an object
 - the indirection operator `*` accesses the pointed-to object
