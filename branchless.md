@@ -21,10 +21,10 @@ a += condition * b;
 
 ## Comparison and Signum (results in -1, 0, or 1)
 ```cpp
-int cmp(int a, int b) {
+int compare(int a, int b) {
     return (a > b) - (a < b);
 }
-int sgn(int a) {
+int signum(int a) {
     return (a > 0) - (a < 0); // cmp(a, 0)
 }
 ```
