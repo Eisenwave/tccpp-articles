@@ -1,24 +1,25 @@
 # Pointer Basics
 
-A Pointer is a variable that can only hold memory addresses.
+A pointer is a type that stores addresses of objects.
+For example, `int*` is a pointer to an int, and will store the address of an `int`.
+- the address-of operator `&` creates a pointer to an object
+- the indirection operator `*` accesses the pointed-to object
 
-## Declaring Pointers:
-Since pointers can only store addresses, we typically assign another varaible's address to it. We can do so with the adress of operator(&).
-
+Using these operators is called *referencing* and *dereferencing*, respectively.
 ```cpp
-int var1 = 50;
-int* ptr1 = &var1;
+int x = 50;
+int* p = &x; // p ==   &x, *p == 50, x == 50
+*p = 10;     // p ==   &x, *p == 10, x == 10
+p = NULL;    // p == NULL, *p == ??, x == 10
 ```
+Note: use **[nullptr](https://en.cppreference.com/w/cpp/language/nullptr)** instead of
+**[NULL](https://en.cppreference.com/w/c/types/NULL)** in C++
 
-## Accessing Values of Pointers:
-Printing the value of the pointer itself will print the memory address it is pointing to. In order to access the value that it's pointing to we need to use the
-dereference operator(*).
-
-```cpp
-std::cout << *ptr1 << "\n";
-```
-
-## See Also:
-- [Introduction to pointers](https://www.learncpp.com/cpp-tutorial/introduction-to-pointers/)
-- [Pointer declaration](https://en.cppreference.com/w/cpp/language/pointer)
+## See Also
+- [learncpp.com: Introduction to pointers](https://www.learncpp.com/cpp-tutorial/introduction-to-pointers/)
+- [cppreference.com: Pointer declaration](https://en.cppreference.com/w/cpp/language/pointer)
+- [stackoverflow.com: What exactly is nullptr?](https://stackoverflow.com/q/1282295/5740428)
+- [cdecl+](https://eisenwave.github.io/cdecl-plus/?decl=const%20int%20*%20const) to experiment with pointer syntax
 - `!howto pointer`
+
+?creditFooter 164892896514801664
