@@ -31,7 +31,7 @@ overloaded `swap` functions may be called instead of
 ✅ well-defined self-assignment  
 ✅ **[noexcept](https://en.cppreference.com/w/cpp/language/noexcept_spec)** copy/move assignment
 if [std::is_nothrow_swappable<T>](https://en.cppreference.com/w/cpp/types/is_swappable)  
-❌ copying always takes place, even for self-assignment
+❌ copying always takes place, even for self-assignment  
 ❌ must implement custom `swap` instead of using `std::swap`
 
 ## See Also
