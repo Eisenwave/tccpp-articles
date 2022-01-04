@@ -20,6 +20,6 @@ Note: use **[nullptr](https://en.cppreference.com/w/cpp/language/nullptr)** inst
 - [cppreference.com: Pointer declaration](https://en.cppreference.com/w/cpp/language/pointer)
 - [stackoverflow.com: What exactly is nullptr?](https://stackoverflow.com/q/1282295/5740428)
 - [cdecl+](https://eisenwave.github.io/cdecl-plus/?decl=const%20int%20*%20const) to experiment with pointer syntax
-- `!howto pointer`
+- `howto pointer`
 
 ?creditFooter 164892896514801664

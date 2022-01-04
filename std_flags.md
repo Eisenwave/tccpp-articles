@@ -37,5 +37,6 @@ set_target_properties(my_target PROPERTIES
 Or globally, for all targets:
 ```cmake
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CSS_STANDARD_REQUIRED YES)
+set(CMAKE_CXX_STANDARD_REQUIRED YES)
+set(CMAKE_CXX_EXTENSIONS NO)
 ```
