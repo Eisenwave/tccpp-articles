@@ -6,8 +6,8 @@ The C++ community has agreed on three guidelines:
 
 ## Rule of Zero
 ?inline
-Nothing defined/explicitly defaulted.
-Class is an [aggregate type](https://en.cppreference.com/w/cpp/language/aggregate_initialization).
+Only [default](https://en.cppreference.com/w/cpp/language/default_constructor) or normal constructors.
+Everything managed automatically.
 
 ## Rule of Three
 ?inline
