@@ -21,7 +21,7 @@ Safely up/down/sideways-casts virtual classes in an inheritance hierarchy.
 dynamic_cast<derived*>(base_ptr); // downcast
 ```
 **[C-style cast](https://en.cppreference.com/w/cpp/language/explicit_cast#Explanation)**  
-Uses a combination of the four above.
+Uses a combination of the casts above.
 ```c++
 (int) 3.14159 // 3
 ```
