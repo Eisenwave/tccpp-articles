@@ -1,6 +1,6 @@
 # Why Is `using namespace std` Considered Bad Practice?
 
-`using namespace std` will import **all** of the symbols from `std` into the enclosing namespace.
+`using namespace std` will import **all** of the symbols from `std` into the current scope.
 This can easily lead to name collisions, as the standard library is filled with common names:
 `get`, `count`, `map`, `array`, etc.
 
