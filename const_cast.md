@@ -8,8 +8,8 @@ This operator is only able to remove or add the constness to **what a pointer (o
 int main() {
     const int i = 0;
     const int* const pointer = &i;
-    int* x = const_cast<int*>(pointer); // Remove low-level const from         
-    // pointer -- valid
+    int* x = const_cast<int*>(pointer); // Remove const from         
+    // what the pointer points to -- valid
     *const_cast<int*>(pointer) = 2000; // No compile time error, but undefined 
     // behavior: we cannot mutate the object x points to, because it is originally const!
 }
