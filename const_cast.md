@@ -1,6 +1,6 @@
 ## const_cast conversion
 const_cast is an explicit cast operator that is mainly used to remove (or add) constness from/to a pointer or reference.
-This operator is only able to remove or add the constness to **what a pointer (or reference) points to**, and *never* the constness of the object itself: otherwise, we would break the mutability of the object.
+This operator is only able to remove or add the constness to **what a pointer (or reference) points to**, and *never* the constness of the object itself: otherwise, we would break the immutability of the object.
 
 ## Examples
 - Remove constness:
