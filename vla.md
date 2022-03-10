@@ -5,8 +5,8 @@ is an array where the size is not constant and depends on a variable.
 
 VLAs have poor compiler support and can lead to inefficient code.
 The core issue with VLAs is that the compiler doesn't know the size of the stack frame.
-Without warning flags like `-Wvla` (turned on by `-Wall`) it can be easy to create a VLA by
-accident, even in C++ with some compilers.
+Without warning flags like `-Wvla` (Note: `-Wvla` is **not** turned on by `-Wall` nor any other warning
+flag) it can be easy to create a VLA by accident, even in C++ with some compilers.
 
 ## Compiler Support
 ?inline
