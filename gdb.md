@@ -8,6 +8,11 @@ Set a breakpoint to pause execution at a certain line or a function:
 - `break main`
 - `b 42`
 
+## Arguments
+?inline
+Pass arguments to your program:
+- `set args argument1 argument2`
+
 ## Run
 ?inline
 Run your program inside gdb after setting breakpoints:
