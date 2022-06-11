@@ -29,6 +29,7 @@ Here are some resources to accompany you:
 ## See Also
 - [Gnu Make Manual](https://www.gnu.org/software/make/manual/make.html)
 - [Makefile Tutorial](https://makefiletutorial.com/)
+- [A Tutorial on Portable Makefiles](https://nullprogram.com/blog/2017/08/20/)
 - [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 - [cdecl+](https://eisenwave.github.io/cdecl-plus/) - converts C/C++ declarations to prose
 - Our <#574580408407293954> channel. It contains many useful utilities.
