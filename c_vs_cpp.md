@@ -22,7 +22,8 @@ Certain high-level C++ features can make it easy to inadvertently write ineffici
 innocent looking code performing large copies).
 
 One notable difference between the two languages is their standard libraries' string representation:
-C strings, while simple, are highly inefficient.
+C strings, while simple, are highly inefficient because they are terminated by a null character, therefore needing 
+to walk the whole string to find out its length.
 
 ## Conclusion
 Both languages can be equally fast, choose the right language for your job, and the language you
