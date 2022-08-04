@@ -8,7 +8,7 @@ Here are some resources to accompany you:
 ?inline
 - [Programiz](https://www.programiz.com/cpp-programming)
 - [codecademy](https://www.codecademy.com/learn/learn-c-plus-plus)
-- [learncpp.com](https://www.learncpp.com/) If you have prior experience with programming
+- [learncpp.com](https://www.learncpp.com/) if you have prior experience with programming
 
 ## Practice
 ?inline
