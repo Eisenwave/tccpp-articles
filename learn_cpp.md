@@ -6,9 +6,9 @@ Here are some resources to accompany you:
 
 ## C++ Tutorials
 ?inline
-- [learncpp.com](https://www.learncpp.com/)
 - [Programiz](https://www.programiz.com/cpp-programming)
 - [codecademy](https://www.codecademy.com/learn/learn-c-plus-plus)
+- [learncpp.com](https://www.learncpp.com/) if you have prior experience with programming
 
 ## Practice
 ?inline
